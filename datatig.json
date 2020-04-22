@@ -1,0 +1,21 @@
+{
+  "title": "Corona Community Data Register",
+  "description": "This lists sources of community info",
+  "types": {
+    "data": {
+      "directory": "data",
+      "fields": {
+        "title": {
+          "key": "title",
+          "title": "Title"
+        },
+        "url": {
+          "key": "url",
+          "title": "URL",
+          "type": "url"
+        }
+      },
+      "list_fields": [ "title" ]
+    }
+  }
+}

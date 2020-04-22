@@ -1,0 +1,4 @@
+[build]
+  publish = "out"
+  command = "pip install git+https://github.com/DataTig/DataTig@master#egg=datatig && export PYTHONPATH=$(pwd) && python -m datatig.cli build . out"
+
