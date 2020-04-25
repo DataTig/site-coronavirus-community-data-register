@@ -1,6 +1,9 @@
 {
   "title": "Corona Community Data Register",
   "description": "This lists sources of community info",
+  "github": {
+    "url": "DataTig/site-coronavirus-community-data-register"
+  },
   "types": {
     "data": {
       "directory": "data",
@@ -19,3 +22,4 @@
     }
   }
 }
+
