@@ -1,0 +1,21 @@
+{
+  "$id": "https://example.com/card.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of a person, company, organization, or place",
+  "type": "object",
+  "required": [ "title", "url" ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "description": "Title of resource",
+      "type": "string"
+    },
+    "url": {
+      "title": "URL",
+      "description": "URL of resource",
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}
+

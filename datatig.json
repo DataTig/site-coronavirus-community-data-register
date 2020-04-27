@@ -19,7 +19,9 @@
           "type": "url"
         }
       },
-      "list_fields": [ "title" ]
+      "list_fields": [ "title" ],
+      "json_schema": "schema.json",
+      "pretty_json_indent": 4
     }
   }
 }
