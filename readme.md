@@ -7,5 +7,6 @@ Create a JSON file in the data directory with this template:
 
     {
       "title": "",
-      "url": ""
+      "url": "",
+      "notes": ""
     }

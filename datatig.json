@@ -17,6 +17,10 @@
           "key": "url",
           "title": "URL",
           "type": "url"
+        },
+        "notes": {
+          "key": "notes",
+          "title": "Notes"
         }
       },
       "list_fields": [ "title" ],
