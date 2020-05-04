@@ -5,28 +5,30 @@
     "type": "github",
     "url": "DataTig/site-coronavirus-community-data-register"
   },
-  "types": {
-    "data": {
-      "directory": "data",
-      "fields": {
-        "title": {
-          "key": "title",
-          "title": "Title"
-        },
-        "url": {
-          "key": "url",
-          "title": "URL",
-          "type": "url"
-        },
-        "notes": {
-          "key": "notes",
-          "title": "Notes"
-        }
+  "types": [{
+    "id": "data",
+    "directory": "data",
+    "fields": [
+      {
+        "id": "title",
+        "key": "title",
+        "title": "Title"
       },
-      "list_fields": [ "title" ],
-      "json_schema": "schema.json",
-      "pretty_json_indent": 4
-    }
-  }
+      {
+        "id": "url",
+        "key": "url",
+        "title": "URL",
+        "type": "url"
+      },
+      {
+        "id": "notes",
+        "key": "notes",
+        "title": "Notes"
+      }
+    ],
+    "list_fields": [ "title" ],
+    "json_schema": "schema.json",
+    "pretty_json_indent": 4
+  }]
 }
 
